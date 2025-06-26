@@ -1,0 +1,126 @@
+  body {
+        margin: 0px;
+        padding: 0px;
+        background: url('image.png');
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 34px;
+    }
+
+    .navbar {
+        display: inline-block;
+        background-color: rgba(185, 241, 241, 0.546);
+        border: 2px solid rgb(165, 234, 234);
+        border-radius: 22px;
+    }
+
+    .navbar ul {
+        margin: 3px 3px;
+        padding: 3px 3px;
+        text-align: center;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 4px 4px;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .left img {
+        width: 40px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 20px;
+        font-weight: bolder;
+        font-size: 26px;
+        font-family: "Mea Culpa", cursive;
+    }
+
+    .btn,
+    .search {
+        margin: 0px 2px;
+        padding: 4px 10px;
+        text-align: center;
+    }
+
+    .search input {
+        border: 2px solid black;
+        border-radius: 14px;
+        padding: 3px 17px;
+        width: 129px;
+    }
+
+    .b {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(223, 223, 223);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 13px;
+        margin: auto;
+    }
+
+    .b:hover {
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(55, 55, 55);
+    }
+    .container{
+        border: 2px solid rgba(84, 80, 80, 0.763);
+        margin: 100px auto;
+        padding: 30px 40px;
+        width: 40%;
+        border-radius: 23px;
+        background-color: rgb(194, 210, 239) ;
+    }
+    .form input{
+        margin: 6px auto;
+        font-weight:10px;
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 6px;
+        border: 2px solid black;
+    }
+ .container h1 {
+        text-align: center;
+    }
+
+    #buttons{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        text-align: center;
+    }

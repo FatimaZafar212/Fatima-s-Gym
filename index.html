@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima's Gym</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Edu+QLD+Hand:wght@400..700&family=Mea+Culpa&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="Gym.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="image copy.png" alt="">
+            <div>Fatima's Gym</div>
+        </div>
+
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Trainers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search this website">
+            </div>
+            <div class="btn">
+                <button class="b">Email us</button>
+                <button class="b">Call us now</button>
+            </div>
+        </div>
+        <div class="container">
+            <h1>
+                Join the best Gym
+
+            </h1>
+            <form action="backend.php">
+                <div class="form">
+                    Name:<input type="text" name="myname" Name: placeholder="Enter Your Name" required>
+                </div>
+                <div class="form">
+                    Age:<input type="number" name="my name" placeholder="Enter Your Age">
+                </div>
+                <div class="form">
+                    E-mail:<input type="email" name="myemail" placeholder="Enter Your E-mail" required>
+                </div>
+                <div class="form">
+                    Number:<input type="number" name="mynumber" placeholder="03XX-XXXXXXX" required>
+                </div>
+                <div class="for_form">
+                    Gender: <input type="radio" name="myGender"> Male <input type="radio" name="myGender" required>
+                    Female <input type="radio" name="myGender"> Other
+                </div>
+                <div class="form">
+                    Location<input type="text" name="mylocation" placeholder="Enter Your Location">
+                </div>
+                <div class="form">
+                    Date of Birth:<input type="date" name="myDate" placeholder="Date of Birth">
+                </div>
+                <input type="submit" class="b" id="buttons" value="Submit Now">
+                <input type="reset" class="b" id="buttons" value="Reset Now">
+            </form>
+        </div>
+</body>
+
+</html>
